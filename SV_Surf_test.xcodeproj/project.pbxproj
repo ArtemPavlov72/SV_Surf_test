@@ -13,6 +13,9 @@
 		AC54049A2A79134600E78712 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC5404982A79134600E78712 /* LaunchScreen.storyboard */; };
 		AC5404A62A79178700E78712 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5404A52A79178700E78712 /* Profile.swift */; };
 		AC5404A92A7919DC00E78712 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5404A82A7919DC00E78712 /* DataManager.swift */; };
+		AC5404AC2A79211700E78712 /* ProfileInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5404AB2A79211700E78712 /* ProfileInfoCell.swift */; };
+		AC5404AE2A7922B800E78712 /* SelfConfiguringCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5404AD2A7922B800E78712 /* SelfConfiguringCell.swift */; };
+		AC5404B12A79231100E78712 /* UICollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5404B02A79231100E78712 /* UICollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		AC54049B2A79134600E78712 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC5404A52A79178700E78712 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		AC5404A82A7919DC00E78712 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		AC5404AB2A79211700E78712 /* ProfileInfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProfileInfoCell.swift; path = "../../../../../../../Library/Mobile Documents/com~apple~CloudDocs/ProfileInfoCell.swift"; sourceTree = "<group>"; };
+		AC5404AD2A7922B800E78712 /* SelfConfiguringCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfConfiguringCell.swift; sourceTree = "<group>"; };
+		AC5404B02A79231100E78712 /* UICollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,8 @@
 				AC5404A72A7919CB00E78712 /* DataManager */,
 				AC5404A42A79175800E78712 /* Models */,
 				AC5404A12A79156C00E78712 /* ViewControllers */,
+				AC5404AA2A7920FE00E78712 /* Views */,
+				AC5404AF2A79230000E78712 /* Extensions */,
 				AC5404A22A79159200E78712 /* App */,
 				AC5404A32A7915A700E78712 /* Resources */,
 			);
@@ -105,6 +113,23 @@
 				AC5404A82A7919DC00E78712 /* DataManager.swift */,
 			);
 			path = DataManager;
+			sourceTree = "<group>";
+		};
+		AC5404AA2A7920FE00E78712 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AC5404AB2A79211700E78712 /* ProfileInfoCell.swift */,
+				AC5404AD2A7922B800E78712 /* SelfConfiguringCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AC5404AF2A79230000E78712 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AC5404B02A79231100E78712 /* UICollectionViewCell.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,9 +203,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC5404922A79134500E78712 /* MainViewController.swift in Sources */,
+				AC5404B12A79231100E78712 /* UICollectionViewCell.swift in Sources */,
 				AC5404A92A7919DC00E78712 /* DataManager.swift in Sources */,
 				AC5404A62A79178700E78712 /* Profile.swift in Sources */,
 				AC54048E2A79134500E78712 /* AppDelegate.swift in Sources */,
+				AC5404AC2A79211700E78712 /* ProfileInfoCell.swift in Sources */,
+				AC5404AE2A7922B800E78712 /* SelfConfiguringCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
