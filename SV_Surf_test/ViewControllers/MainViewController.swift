@@ -9,11 +9,19 @@ import UIKit
 
 class MainViewController: UIViewController {
 
+  //MARK: - Public Properties
+  private var profile: Profile?
+
+  //MARK: - Life Cycles Methods
   override func viewDidLoad() {
     super.viewDidLoad()
-    
+    loadProfileData()
   }
 
+  //MARK: - Private Methods
+  private func loadProfileData() {
+    profile = DataManager.shared.createMockData()
+  }
 
 }
 

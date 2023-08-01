@@ -11,6 +11,8 @@
 		AC5404922A79134500E78712 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5404912A79134500E78712 /* MainViewController.swift */; };
 		AC5404972A79134600E78712 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC5404962A79134600E78712 /* Assets.xcassets */; };
 		AC54049A2A79134600E78712 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC5404982A79134600E78712 /* LaunchScreen.storyboard */; };
+		AC5404A62A79178700E78712 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5404A52A79178700E78712 /* Profile.swift */; };
+		AC5404A92A7919DC00E78712 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5404A82A7919DC00E78712 /* DataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		AC5404962A79134600E78712 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC5404992A79134600E78712 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC54049B2A79134600E78712 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC5404A52A79178700E78712 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		AC5404A82A7919DC00E78712 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,8 @@
 		AC54048C2A79134500E78712 /* SV_Surf_test */ = {
 			isa = PBXGroup;
 			children = (
+				AC5404A72A7919CB00E78712 /* DataManager */,
+				AC5404A42A79175800E78712 /* Models */,
 				AC5404A12A79156C00E78712 /* ViewControllers */,
 				AC5404A22A79159200E78712 /* App */,
 				AC5404A32A7915A700E78712 /* Resources */,
@@ -83,6 +89,22 @@
 				AC5404962A79134600E78712 /* Assets.xcassets */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		AC5404A42A79175800E78712 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AC5404A52A79178700E78712 /* Profile.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AC5404A72A7919CB00E78712 /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				AC5404A82A7919DC00E78712 /* DataManager.swift */,
+			);
+			path = DataManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,6 +178,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC5404922A79134500E78712 /* MainViewController.swift in Sources */,
+				AC5404A92A7919DC00E78712 /* DataManager.swift in Sources */,
+				AC5404A62A79178700E78712 /* Profile.swift in Sources */,
 				AC54048E2A79134500E78712 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,7 +321,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = QQ7NB58NL6;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SV_Surf_test/Info.plist;
+				INFOPLIST_FILE = SV_Surf_test/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -327,7 +351,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = QQ7NB58NL6;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SV_Surf_test/Info.plist;
+				INFOPLIST_FILE = SV_Surf_test/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
