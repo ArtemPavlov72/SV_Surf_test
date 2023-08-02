@@ -16,6 +16,8 @@
 		AC5404AC2A79211700E78712 /* ProfileInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5404AB2A79211700E78712 /* ProfileInfoCell.swift */; };
 		AC5404AE2A7922B800E78712 /* SelfConfiguringCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5404AD2A7922B800E78712 /* SelfConfiguringCell.swift */; };
 		AC5404B12A79231100E78712 /* UICollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5404B02A79231100E78712 /* UICollectionViewCell.swift */; };
+		AC5404B32A79851D00E78712 /* SkillsInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5404B22A79851D00E78712 /* SkillsInfoCell.swift */; };
+		AC5404B52A7A718100E78712 /* RoundedBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5404B42A7A718100E78712 /* RoundedBackgroundView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		AC5404AB2A79211700E78712 /* ProfileInfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProfileInfoCell.swift; path = "../../../../../../../Library/Mobile Documents/com~apple~CloudDocs/ProfileInfoCell.swift"; sourceTree = "<group>"; };
 		AC5404AD2A7922B800E78712 /* SelfConfiguringCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfConfiguringCell.swift; sourceTree = "<group>"; };
 		AC5404B02A79231100E78712 /* UICollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewCell.swift; sourceTree = "<group>"; };
+		AC5404B22A79851D00E78712 /* SkillsInfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillsInfoCell.swift; sourceTree = "<group>"; };
+		AC5404B42A7A718100E78712 /* RoundedBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedBackgroundView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,7 +123,9 @@
 			isa = PBXGroup;
 			children = (
 				AC5404AB2A79211700E78712 /* ProfileInfoCell.swift */,
+				AC5404B22A79851D00E78712 /* SkillsInfoCell.swift */,
 				AC5404AD2A7922B800E78712 /* SelfConfiguringCell.swift */,
+				AC5404B42A7A718100E78712 /* RoundedBackgroundView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -206,7 +212,9 @@
 				AC5404B12A79231100E78712 /* UICollectionViewCell.swift in Sources */,
 				AC5404A92A7919DC00E78712 /* DataManager.swift in Sources */,
 				AC5404A62A79178700E78712 /* Profile.swift in Sources */,
+				AC5404B52A7A718100E78712 /* RoundedBackgroundView.swift in Sources */,
 				AC54048E2A79134500E78712 /* AppDelegate.swift in Sources */,
+				AC5404B32A79851D00E78712 /* SkillsInfoCell.swift in Sources */,
 				AC5404AC2A79211700E78712 /* ProfileInfoCell.swift in Sources */,
 				AC5404AE2A7922B800E78712 /* SelfConfiguringCell.swift in Sources */,
 			);

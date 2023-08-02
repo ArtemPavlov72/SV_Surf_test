@@ -12,23 +12,26 @@ class DataManager {
 
   private init() {}
 
-  func createMockData() -> Profile {
+  func createMockProfileData() -> Profile {
     let profile = Profile(
-      profileMainInformation: Profile.ProfileMainInformation(
-        image: "Test",
+      profileMainInformation: ProfileMainInformation(
+        image: "Artem",
         name: "Артем",
         surname: "Павлов",
         patronymic: "Александрович",
         position: "Junior IOS- разработчик, опыт 2 года",
         location: "Тюмень"
       ),
-      about: Profile.AboutProfile(
+      about: AboutProfile(
         text: "Лучший разработчик"
       ),
       skills: [
-        Profile.ProfileSkill(nameOfSkill: "MVVM"),
-        Profile.ProfileSkill(nameOfSkill: "UIKiT"),
-        Profile.ProfileSkill(nameOfSkill: "VIPER")
+        ProfileSkill(nameOfSkill: "MVVM"),
+        ProfileSkill(nameOfSkill: "UIKiT"),
+        ProfileSkill(nameOfSkill: "VIPER"),
+        ProfileSkill(nameOfSkill: "MVC"),
+        ProfileSkill(nameOfSkill: "URLSession"),
+        ProfileSkill(nameOfSkill: "CoreData")
       ]
     )
     return profile
